@@ -4,7 +4,7 @@ DP13_suka
 
 Not a problem which maps well to a GPU, but anyway still 2-3 times faster. Is a hybrid implementation.
 
-NOTE: CPU version compiled with all optimizations (-O2) on an turbo 3.9 Ghz i7
+NOTE: CPU version compiled with all optimizations (-O2) on a turbo 3.9 Ghz i7.
 
 ____
 <table>
