@@ -2,9 +2,10 @@ DP13_suka
 =========
 
 
-Not a problem which maps well to a GPU, but anyway still 4-9 times faster. Is a hybrid implementation.
+Not a problem which maps well to a GPU, but anyway still 7-9 times faster despite the fact that computation is done in 64 bit using a GTX GPU. 
+Did not even try to coalesce memory updates, and could improve quite a bit with some effort.
 
-NOTE: CPU version compiled with all optimizations (-O2) on a  4.5 Ghz i7-4820. GPU GTX Titan X 
+NOTE: CPU version compiled with all optimizations (-O2) on a  4.5 Ghz i7-4820. GPU GTX Titan X 1.1 GHz with --use_fast_math
 
 ____
 <table>
@@ -13,10 +14,10 @@ ____
 </tr>
 
   <tr>
-    <td>1000</td><td> 626 ms</td><td>  133 ms</td><td> 4.7x</td>
+    <td>1000</td><td> 626 ms</td><td>  84 ms</td><td> 7.4x</td>
   </tr>
   <tr>
-    <td>2000</td><td> 5,988 ms</td><td>  713 ms</td><td> 8.39x</td>
+    <td>2000</td><td> 5,988 ms</td><td>  588 ms</td><td> 10.18x</td>
   </tr>
 </table>  
 ___  
